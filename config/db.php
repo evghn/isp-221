@@ -2,9 +2,13 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=yii2basic',
-    'username' => 'root',
-    'password' => '',
+
+    // 'dsn' => 'mysql:host=localhost;dbname=cleaning_service',
+
+    // только для OSP 6.x
+    'dsn' => 'mysql:host=MariaDB-11.2;dbname=cleaning_service',
+    'username' => 'root', //login
+    'password' => '', //password
     'charset' => 'utf8',
 
     // Schema cache options (for production environment)
